@@ -40,7 +40,7 @@ const UserPrograms = () => {
             </p>
 
             {/* STATS */}
-            <div className="flex items-center justify-center gap-16 mt-10 font-mono">
+            <div className="flex items-center justify-center gap-6 lg:gap-16 mt-10 font-mono">
               <div className="flex flex-col items-center">
                 <p className="text-3xl text-primary">
                   <CountUp end={500}/>+
