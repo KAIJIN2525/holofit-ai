@@ -14,7 +14,6 @@ import { Button } from "./ui/button";
 import { useState } from "react";
 
 const Navbar = () => {
-  const [drawerOpen, setDrawerOpen] = useState(false);
   const [navDrawerOpen, setNavDrawerOpen] = useState(false);
   const { isSignedIn } = useUser();
 
